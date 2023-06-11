@@ -96,6 +96,7 @@ body {
   max-width: 400px;
   min-width: 300px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   /*border: 1px solid white;
@@ -138,6 +139,35 @@ body {
   border-radius: 10px;
   cursor: pointer;
   background-color: rgba(19, 19, 19, 0.8823529412);
+}
+.calculador .footer {
+  margin: 30px 0 0 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.calculador .footer p {
+  font-weight: bold;
+  padding-bottom: 0;
+}
+.calculador .footer span {
+  text-align: center;
+}
+.calculador .footer span a {
+  margin: 0 10px;
+  font-size: 25px;
+}
+.calculador .footer span .linkedin {
+  coloR: gray;
+}
+.calculador .footer span .linkedin :hover {
+  color: blue;
+}
+.calculador .footer span .github {
+  color: gray;
+}
+.calculador .footer span .github :hover {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

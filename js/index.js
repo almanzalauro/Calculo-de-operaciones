@@ -28,7 +28,7 @@ function calcular(){
                 resultado = op1 / op2;
                 break;
         }
-        pResultado.style.margin="10px 0"
+        pResultado.style.margin="10px 0 0 0"
         pResultado.style.color="white";
         pResultado.style.fontWeight="Bold"
         pResultado.innerText = op1 +" "+ operacion+ " "+op2+ " = "+ resultado;

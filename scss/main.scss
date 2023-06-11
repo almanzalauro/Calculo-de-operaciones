@@ -98,6 +98,7 @@ body {
   max-width: 400px;
   min-width: 300px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   /*border: 1px solid white;
@@ -145,5 +146,36 @@ body {
 
     
     
+  }
+
+  .footer{
+    margin: 30px 0 0 0;
+    color:white;
+    display: flex;
+    flex-direction: column;
+
+    p{
+      font-weight: bold;
+      padding-bottom:0;
+    }
+    span{
+      text-align: center;
+      a{
+        margin: 0 10px;
+        font-size: 25px;
+      }
+      .linkedin{
+        coloR:gray;
+        :hover{
+          color:blue;
+        }
+      }
+      .github{
+        color:gray;
+        :hover{
+          color:white;
+        }
+      }
+    }
   }
 }
